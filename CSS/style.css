@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,700;1,400;1,700');
+
+*{
+    font-family: 'Crimson Pro', serif;
+}
+
+body{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+.navbar .navbar-brand img{
+    width: 40px;
+    height: 40px;
+    margin-left: 2em;
+}
+
+.navbar .navbar-brand span{
+    color: #a08228;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    font-size: 1.1em;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navbar-toggler, .collapse{
+    transition: all 0.5s ease;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #a08228;
+}
+
+.navbar .navbar-nav .nav-item .active{
+    color: #a08228;
+}
+
+.text-center{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.products img{
+    opacity: 0.7;
+    transition: all 0.5s ease;
+}
+
+.products img:hover{
+    opacity: 1;
+}
+
+.section{
+    color: #a08228;
+}
+
+footer p a{
+    text-decoration: none;
+}
+
+footer p a i{
+    color: #5a5a5a;
+    font-size: 20px;
+}
+
+.carousel{
+    margin-bottom: 4rem;
+}
+
+.carousel-caption{
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.carousel-item{
+    height: 32rem;
+}
+
+.carousel-item img{
+    opacity: 0.6;
+}
+
+.carousel-item .carousel-caption{
+    color: #1c1c1c;
+}
+
+.carousel-item > img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+.marketing .col-lg-4{
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.marketing h2{
+    font-weight: 400;
+}
+
+.marketing .col-lg-4 p{
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+.featurette-divider{
+    margin: 5rem 0;
+}
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+@media (min-width: 40em){
+    .carousel-caption p{
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading{
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em){
+    .featurette-heading{
+        margin-top: 7rem;
+    }
+}
